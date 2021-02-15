@@ -10,7 +10,7 @@ import requests
 
 app = Flask(__name__)
 
-APP_BASE_URI = 'https://example-python-flask.USERNAME.repl.co'
+APP_BASE_URI = 'https://example2.USERNAME.repl.co'
 APP_CLIENT_ID = '4fa2099f-ae7d-4f92-8d4b-2a30b6043d84'
 APP_SECRET = os.getenv('APP_SECRET')
 
