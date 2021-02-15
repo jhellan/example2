@@ -4,18 +4,18 @@
 
 - Logg inn på repl.it med konto fra google, github eller facebook
 
-- I repl.it: Gå inn i filen `main.py`. Finn linjen med `APP_BASE_URI` og bytt ut `USERNAME` med ditt brukernavn i repl.it
+- I repl.it: Gå inn i filen `main.py`. Finn linjen med `APP_BASE_URI` og bytt ut `USERNAME` med ditt brukernavn i repl.it. Brukernavnet står øverst til venstre, f.eks. `@pelle42`. Ikke ta med `@`-tegnet.
 
-- Opprett en klient i Feide. Sett `redirect_uri` til verdien av `APP_BASE_URI` etterfulgt av `/redirect_uri`
+- Opprett en klient med https://dashboard.dataporten.no. Bruk knappen [ Registrer ny applikasjon ]. Sett `redirect_uri` til verdien av `APP_BASE_URI` etterfulgt av `/redirect_uri`. Godta brukervilkårene.
 
-- Finn `client_id` i Feide. Finn linjen med `APP_CLIENT_ID` og bytt ut verdien med
+- Gå til 'OAuth detaljer' i dashboard og finn `client_id`. Finn linjen med `APP_CLIENT_ID` i koden og bytt ut verdien med
   din `client_id`.
 
-- Finn `client_secret` i Feide. Finn filen `.env` i repl.it, og bytt ut verdien bak `APP_SECRET=` med verdien av `client_secret`.
+- Finn `client_secret` samme sted i dashboard. Finn filen `.env` i repl.it, og bytt ut verdien bak `APP_SECRET=` med verdien av `client_secret`.
 
 - Trykk på `Run`-knappen i repl.it
 
-- Etter en stund dukker det opp en minibrowser i repl.it. Vi kan ikke bruke denne, men vi kan gå til samme URL i en annen tab. Logg inn med Feide
+- Etter en stund dukker det opp en minibrowser i repl.it. Vi kan ikke bruke denne, men vi kan gå til samme URL i en annen tab. Logg derfra inn med Feide
 
 - Den lokale sesjonen løper ut etter ett minutt. Det går også an å logge ut ved å gå til samme URL etterfulgt av `/logout`.
 
