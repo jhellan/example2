@@ -1,6 +1,6 @@
 # Python-eksempel på innlogging med Feide
 
-- Trykk på denne knappen: [![Run on Repl.it](https://repl.it/badge/github/jhellan/example-python-flask)](https://repl.it/github/jhellan/example-python-flask)
+- Trykk på denne knappen: [![Run on Repl.it](https://repl.it/badge/github/jhellan/example2)](https://repl.it/github/jhellan/example2)
 
 - Logg inn på repl.it med konto fra google, github eller facebook
 
@@ -22,7 +22,7 @@
 Når vi har logget inn, kommer vi til en side med info som applikasjonen har fått fra Feide:
 
 - access\_token: En streng av hex-sifre som bare Feide kan tolke.
-- id\_token: Dette er jwt med info om bukeren. I Feide inneholder den svært lite.
+- id\_token: Dette er jwt med info om brukeren. I Feide inneholder den svært lite.
   Siden viser token etter dekoding.
 - userinfo: Kommer fra OpenID Connect userinfo-endepunktet.
 - mygroups: Gruppene innlogget bruker er med i. Kommer fra Feides gruppe-API.
